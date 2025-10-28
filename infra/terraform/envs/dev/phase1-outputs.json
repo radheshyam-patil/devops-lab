@@ -1,0 +1,105 @@
+{
+  "alb_security_group_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sg-02658098edc03f0ed"
+  },
+  "aws_account_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "338658064058"
+  },
+  "aws_region": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ap-south-1"
+  },
+  "database_subnet_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "subnet-0a16b841d7f38e71f",
+      "subnet-07e586104048fa3a0",
+      "subnet-00c9d4595a14c17cc"
+    ]
+  },
+  "ecs_execution_role_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:iam::338658064058:role/dev-ecs-execution-role"
+  },
+  "ecs_security_group_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sg-09ff5edb4bf08567f"
+  },
+  "ecs_task_role_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:iam::338658064058:role/dev-ecs-task-role"
+  },
+  "environment": {
+    "sensitive": false,
+    "type": "string",
+    "value": "dev"
+  },
+  "lambda_scale_role_arn": {
+    "sensitive": false,
+    "type": "string",
+    "value": "arn:aws:iam::338658064058:role/dev-lambda-scale-role"
+  },
+  "private_subnet_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "subnet-01133de9d41ad8059",
+      "subnet-01d094053afde4b86",
+      "subnet-04b6d6ef3a00cd075"
+    ]
+  },
+  "public_subnet_ids": {
+    "sensitive": false,
+    "type": [
+      "tuple",
+      [
+        "string",
+        "string",
+        "string"
+      ]
+    ],
+    "value": [
+      "subnet-0889ca26db5b7a6b5",
+      "subnet-0c9fa7def97a3018a",
+      "subnet-06f3f76975896ca20"
+    ]
+  },
+  "rds_security_group_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sg-08d8bb2438f050d3e"
+  },
+  "vpc_cidr": {
+    "sensitive": false,
+    "type": "string",
+    "value": "10.0.0.0/16"
+  },
+  "vpc_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "vpc-02f45561ccc2cae23"
+  }
+}
