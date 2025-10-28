@@ -1,0 +1,37 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars.backup
+.terraform.lock.hcl
+backend-config.hcl
+
+# Sensitive
+*.pem
+*.key
+secrets.txt
+terraform-backend-config.txt
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Build
+node_modules/
+npm-debug.log*
+dist/
+build/
+*.log
+
+# Temp
+*.tmp
+*.bak
